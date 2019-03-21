@@ -6,7 +6,8 @@ import ReactDOM from 'react-dom';
 // import PicsApp from './Pics/PicsApp';
 // import SongsApp from './Songs/SongsApp';
 // import AbstractApp from './Abstract/AbstractApp';
-import BlogApp from './Blog/BlogApp';
+// import BlogApp from './Blog/BlogApp';
+import TranslateApp from './Translate/TranslateApp';
 
 
 
@@ -20,7 +21,8 @@ ReactDOM.render(
         {/*<YoutubeApp/>*/}
         {/*<SongsApp />*/}
         {/*<AbstractApp/>*/}
-        <BlogApp/>
+        {/*<BlogApp/>*/}
+        <TranslateApp />
     </div>,
     document.querySelector('#root')
 );
